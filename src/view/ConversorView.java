@@ -48,7 +48,7 @@ public class ConversorView extends JFrame { // Importante heredar de JFrame
 
             @Override
             public void actionPerformed(ActionEvent e) {
-                controller.seClickeoElBotonConvertir(millasTextField.getText());
+                controller.seClickeoElBotonConvertir(millasTextField.getText(), kilometrosLabel);
             }
         });
         panel.add(convertirButton);
